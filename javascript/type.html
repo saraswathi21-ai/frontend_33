@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+
+</head>
+<body>
+    
+     <script>
+        //type conversion
+        //falsey values false,0,"",null,undefined,NAN
+        console.log(Boolean(NaN)) //false
+        console.log(Boolean(1)) //true
+
+        console.log(4567)
+        console.log(String("4567"))
+        console.log("saraswathi!!")
+        console.log(Number("saraswathi!!")) //NaN
+
+        //type coercion
+        console.log("sara"+20) //string concatenation
+        console.log("sara"-20) //NaN
+        console.log("sara"*20) //NaN
+        console.log("sara"/20) //NaN
+        console.log("5"-20) //-15   
+        console.log("9"/3) //3
+        console.log("9"*3) //27
+        console.log("9"+3) //93
+
+        //typeof
+        console.log(typeof(null)) //object
+        console.log(typeof(undefined)) //undefined
+        console.log(typeof(42)) //number
+        console.log(typeof("hello")) //string
+        console.log(typeof(true)) //boolean
+
+    </script>
+</body>
+</html>

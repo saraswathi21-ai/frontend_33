@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //primitive datatypes // storing of 1 varable in 1 value
+        //number, string, boolean, null, undefined, object, bigint, symbol ->primitive
+        let b=2456.89;
+        let c=Number.MAX_SAFE_INTEGER
+        console.log(c)
+        let d=9999999999999999;
+        console.log(d) 
+
+        console.log(20/0)
+        console.log("sara"/7) //not a number -> NAN BUT typeof is number data type
+        console.log(typeof("sara"))
+
+        //string
+        console.log("bds!%*$#")
+
+        //boolean-true or false
+        let s=10;
+        if(s>8){
+            console.log("saaras")
+        }
+
+        //null
+        let sa=null;
+        console.log(sa)
+
+        //undefined
+        let sa1;
+        console.log(sa1)
+
+        let k={
+            name:"sai"
+        }
+        console.log(k.age) //undefined // difference between null and undefined;  is null is assigned by user but undefined is assigned by js when we declare a variable without assigning any value to it
+
+        //bigint
+        let e=99999999999999999n;
+        console.log(e)
+
+        //symbol
+        let u=Symbol("id");
+        let v=Symbol("id");
+        console.log(u==v) //false because symbol creates unique identifier 
+
+        //non primitive datatypes ,in 1 variable storing of multiple values 
+
+        // let student_name="sara";
+        // let age=25;
+        // let place="hyd";
+        // console.log(student_name,age,place ) waste of variables and memory
+
+//object declaration
+        let student={
+            name:"sara",
+            age:25,
+            place:"hyd"
+        }
+        console.log(student)
+
+        //array declaration
+        let arr=["sara",1,2,null,undefined,4,5]
+        console.log(arr)
+
+
+
+
+    </script>
+    
+</body>
+</html>
